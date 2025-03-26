@@ -1,14 +1,20 @@
 # MygoChic
 Mygo Chic Website Purchases
+
 Group Division (Phase I)
+
 Team Information
+
 Team Name: MyGo Chic 
+
 Team Leader:
 	•	Aleksandra Myslimi
 	•	GitHub Username: aleksandramyslimi
+ 
 Team Members:
 	1.	Aleksandra Myslimi - GitHub:  aleksandramyslimi
 	2.	Anja Imeraj - GitHub: AnjaImeraj
+ 
 ________________________________________
 Project Details
 Project Title: MyGo Chic Online Store Management System
