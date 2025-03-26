@@ -1,5 +1,5 @@
 # MygoChic
-Mygo Chic Website Purchases
+MyGo Chic Online Store Management System
 
 Group Division (Phase I)
 
