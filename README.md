@@ -13,7 +13,6 @@ Team Leader:
  
 Team Members:
 	1.	Aleksandra Myslimi - GitHub:  aleksandramyslimi
- 
 	2.	Anja Imeraj - GitHub: AnjaImeraj
  
 ________________________________________
