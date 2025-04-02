@@ -111,7 +111,6 @@ a. Stakeholders
  
 	•	Developers: Build and maintain the system.
 
-
 	•	Marketing Team: Runs ads and tracks sales.
 
 b. User Stories
