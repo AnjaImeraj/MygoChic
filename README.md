@@ -31,6 +31,7 @@ We propose developing a web-based platform for mygo.chic that integrates with In
 	•	Offer analytics to improve marketing strategies.
  
 Project Scope:
+
 Aim:To build an efficient and user-friendly e-commerce system for mygo.chic, enhancing its online presence and order management.
 
 Main Objectives:
@@ -41,6 +42,7 @@ Main Objectives:
 	5.	Ensure data security and encryption for user transactions.
  
 Application Description:
+
 The MyGo Chic Online Store Management System will be a web-based platform where customers can browse clothing items, filter products, add them to a cart, and place orders. The admin panel will allow store owners to update stock, manage orders, and analyze sales trends. The system will also support Instagram integration for product visibility.
 ________________________________________
 Roles and Tasks Distribution
@@ -49,16 +51,23 @@ Team Leader Responsibilities:
 	•	Manage the project timeline and tasks.
 	•	Oversee the development process and ensure quality.
 	•	Maintain the GitHub repository and documentation.
+ 
 Main Roles and Tasks:
 	1.	Aleksandra Myslimi - Backend Development (Database, Authentication, API)
 	2.	Anja Imeraj - Frontend Development (UI/UX, Responsive Design, User Experience)
+ 
 Both members will collaborate on testing, debugging, and final deployment.
 ________________________________________
 Deadline
+
 Submission Deadline: 15.03.2025, 23:59 hours.
+
 GitHub Repository
+
 Repository Name: SE_Project_Phase1_Mygo_Chic
+
 GitHub Link: https://github.com/AnjaImeraj/MygoChic
+
 Additional Notes
 	•	The README.md file will include setup instructions, dependencies, and how to run the project.
 	•	Future phases will involve refining user requirements, system architecture, and full implementation.
@@ -71,7 +80,8 @@ Additional Notes
 
 Model: Agile
 
-Why?
+-Why?
+
 Agile is flexible and allows frequent updates. Since mygo.chic is an online clothing store, it needs regular updates for new collections, promotions, and customer feedback. Agile helps in making quick changes.
 
 
