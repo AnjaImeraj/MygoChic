@@ -17,28 +17,34 @@ Team Members:
  
 ________________________________________
 Project Details
+
 Project Title: MyGo Chic Online Store Management System
+
 Problem Statement:
 Many small online clothing stores rely on Instagram for sales but lack a proper e-commerce platform to manage products, orders, and customers efficiently. This leads to challenges such as order tracking issues, difficulty in managing inventory, and lack of insights into customer behavior.
+
 Solution Proposed:
 We propose developing a web-based platform for mygo.chic that integrates with Instagram, allowing users to:
 	•	Browse and filter products easily.
 	•	Add items to a cart and complete purchases.
 	•	Provide store admins with a dashboard to manage inventory, orders, and promotions.
 	•	Offer analytics to improve marketing strategies.
+ 
 Project Scope:
-Aim:
-To build an efficient and user-friendly e-commerce system for mygo.chic, enhancing its online presence and order management.
+Aim:To build an efficient and user-friendly e-commerce system for mygo.chic, enhancing its online presence and order management.
+
 Main Objectives:
 	1.	Develop a responsive web application with an intuitive UI.
 	2.	Implement a secure authentication system for users and admins.
 	3.	Provide a shopping cart and checkout process with payment integration.
 	4.	Enable admins to manage inventory and orders easily.
 	5.	Ensure data security and encryption for user transactions.
+ 
 Application Description:
 The MyGo Chic Online Store Management System will be a web-based platform where customers can browse clothing items, filter products, add them to a cart, and place orders. The admin panel will allow store owners to update stock, manage orders, and analyze sales trends. The system will also support Instagram integration for product visibility.
 ________________________________________
 Roles and Tasks Distribution
+
 Team Leader Responsibilities:
 	•	Manage the project timeline and tasks.
 	•	Oversee the development process and ensure quality.
