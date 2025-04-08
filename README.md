@@ -201,4 +201,81 @@ e. Security Measures
  
 	•	Admin Controls: Only admins can edit products
 
+ Phase III: Software Design and Modeling:
+
+• System Architecture
+
+Frontend:
+The frontend will be built with React.js, creating a dynamic and interactive web interface. The homepage will display product categories, and each product page will include filters and a search feature to help customers find products easily.
+
+Backend:
+The backend will be powered by Node.js with Express.js, handling business logic and interactions between the frontend and the database. APIs will be built to manage products, orders, and user data.
+
+Database:
+The application will use MongoDB to store essential data such as:
+
+Users: UserID, Name, Email, Password
+
+Products: ProductID, Name, Price, Stock
+
+Orders: OrderID, UserID, Products, TotalPrice
+
+•Component Diagram:
+
+            +------------+        +------------+         +--------------+
+            |   User     |        | Application|         | Authentication|
+            | Interface  |<-----> |   Server   | <----->  | & Authorization|
+            +------------+        +------------+         +--------------+
+                      |                |                    |
+                      v                v                    v
+           +-----------------+     +-------------+      +--------------+
+           |   Caching Layer |     |   Database  |      | External API |
+           +-----------------+     +-------------+      +--------------+
+                      |                                       |
+                      v                                       v
+                +-------------+                        +--------------+
+                |  Logging &  |                        | Payment API  |
+                | Monitoring  |                        | Stripe API   |
+                +-------------+                        +--------------+
+
+ 
+ 
+ •Class Diagram:
+
+ 
+ +-----------------+           +------------------+         +----------------+
+ |     User       |           |     Product      |         |     Cart       |
+ +-----------------+           +------------------+         +----------------+
+ | -userID        | 1       * | -productID       |  *    1 | -cartID        |
+ | -name          | <--------> | -name            | <------> | -userID        |
+ | -email         |           | -price           |         | -products[]    |
+ | -password      |           | -description     |         | -totalPrice    |
+ | -role          |           | -stock           |         +----------------+
+ +-----------------+           | -category        |
+                               | -image           |  
+                               +------------------+
+                                      |
+                                      |
+                                      |
+                                 +-----------------+
+                                 |     Order      |
+                                 +-----------------+
+                                 | -orderID       |
+                                 | -orderDate     |
+                                 | -shippingAddr  |
+                                 | -status        |
+                                 | -totalPrice    |
+                                 +-----------------+
+                                       |
+                                       |
+                                       |
+                            +-------------------+
+                            |     Payment       |
+                            +-------------------+
+                            | -paymentID        |
+                            | -paymentMethod    |
+                            | -paymentStatus    |
+                            | -paymentDate      |
+                            +-------------------+
+
 
